@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Gerador de senhas</title>
+</head>
+
+<body>
+
+  <section class="container">
+    <h1 style="text-align: center; ">Gerador de Senhas</h1> <br>
+    <div class="senhaGerada">
+      Selecione as opções
+    </div> <br>
+    <p style="color: brown; text-align: center;">
+      Quantidade de caracteres
+      <input value="8" type="number" name="" id="" min="1" max="50" class="qtdCaracteres">
+    </p>
+    <div class="ckbox">
+      <p>Adicionar maiúsculas <input type="checkbox" name="" id="" class="chkMaiusculas" checked></p>
+      <p>Adicionar minúsculas <input type="checkbox" name="" id="" class="chkMinusculas"></p>
+      <p>Adicionar números <input type="checkbox" name="" id="" class="chkMumeros"></p>
+      <p>Adicionar símbolos <input type="checkbox" name="" id="" class="chkSimbolos"></p>
+    </div> <br>
+    <button id="gerarSenha" class="btn" style="color: aliceblue;">Gerar Senha</button>
+    <div class="observacao">
+       *As senhas geradas, desapareceram quando a página atualizar, <br> <hr> <strong>Recomenda-se</strong> copiar a senha para um
+      lugar seguro antes de sair.
+    </div>
+  </section>
+
+  <script src="./assets/js/bundle.js"></script>
+</body>
+
+</html>
